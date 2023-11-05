@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>I Love You</title>
+    <link rel="stylesheet" href="dist/sakura.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel = "icon" type = "image/png" href = "img/icon.jpg">
+  </head>
+  <body>
+
+    
+    <input type="checkbox" id="checkbox1">
+    <input type="checkbox" id="checkbox2">
+    <input type="checkbox" id="checkbox3">
+    <input type="checkbox" id="checkbox4">
+    <input type="checkbox" id="checkbox5">
+    <input type="checkbox" id="checkbox6">
+    <input type="checkbox" id="checkbox7">
+    <input type="checkbox" id="checkbox8">
+    <input type="checkbox" id="checkbox9">
+
+
+    <div class="flip-book">
+        <!--front page-->
+        <div class="page bg-color1" id="page1">
+            <label for="checkbox1" class="front">
+                <div class="frontPage-design"><h2>Alii-chan Bleh</h2></div>
+            </label>
+            <label for="checkbox1" class="back text-black">
+                <div> I Want you to know</div>
+            </label>
+        </div>
+
+        <div class="page bg-color1" id="page2">
+            <label for="checkbox2" class="front">
+                <img src="img/0.jpg" alt="img1">
+            </label>
+            <label for="checkbox2" class="back text-black">
+                <div> That if can't be close to you</div>
+            </label>
+        </div>
+
+        
+        <div class="page bg-color1" id="page3">
+            <label for="checkbox3" class="front">
+                <img src="img/1.jpg" alt="img2">
+            </label>
+            <label for="checkbox3" class="back text-black">
+                <div> I'll settle for the ghost of you</div>
+            </label>
+        </div>
+
+
+        <div class="page bg-color1" id="page4">
+            <label for="checkbox4" class="front">
+                <img src="img/2.jpg" alt="img3">
+            </label>
+            <label for="checkbox4" class="back text-black">
+                <div> I miss you more than a life</div>
+            </label>
+        </div>
+
+        <div class="page bg-color1" id="page5">
+            <label for="checkbox5" class="front">
+                <img src="img/3.jpg" alt="img4">
+            </label>
+            <label for="checkbox5" class="back text-black">
+                <div> And if you can't be next to me</div>
+            </label>
+        </div>
+
+
+        
+        <div class="page bg-color1" id="page6">
+            <label for="checkbox6" class="front">
+                <img src="img/4.jpeg" alt="img5">
+            </label>
+            <label for="checkbox6" class="back text-black">
+                <div>Your memory is ecstasy</div>
+            </label>
+        </div>
+
+   
+        <div class="page bg-color1" id="page7">
+            <label for="checkbox7" class="front">
+                <img src="img/5.jpeg" alt="img6">
+            </label>
+            <label for="checkbox7" class="back text-black">
+                <div> I miss You more than life</div>
+            </label>
+        </div>
+
+        <div class="page bg-color1" id="page8">
+            <label for="checkbox8" class="front">
+                <img src="img/6.jpeg" alt="img7">
+            </label>
+            <label for="checkbox8" class="back text-black">
+                <div>I Love You</div>
+            </label>
+        </div>
+
+        
+        
+
+        <!--last page-->
+        <div class="page bg-color1" id="page9">    
+            <label for="checkbox9" class="front">
+                <img src="img/7.jpg" alt="img8">
+            </label>   
+            <label for="checkbox9" class="back text-black">
+               <div class="backPage-design">
+                   <h2>Bleh</h2>
+                   <p>Alii-chan</p>
+               </div>
+            </label>
+        </div>
+    </div>
+
+
+
+    <script src="dist/sakura.js" text="text/javascript"></script>
+    <script>
+      var sakura = new Sakura('body', {
+        colors: [
+          {
+            gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+            gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(255,189,189)',
+            gradientColorEnd: 'rgba(227,170,181)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(212,152,163)',
+            gradientColorEnd: 'rgba(242,185,196)',
+            gradientColorDegree: 120,
+          },
+        ],
+        delay: 200,
+      });
+    </script>
+  </body>
+</html>
